@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.copy{
+    background: #222534;
+    max-height: 100px;
+    width: 100%;
+}
+.iconos{
+    width: 100%;
+    font-size: 80px;
+    color: black;
+    padding: 10px;
+}
+.copy-title{
+    font-size: 2em;
+    color: white;
+    margin-top: 25px;
+    margin-left: 10%;
+}
+.copy-ul{
+    list-style-type: none;
+    margin-top: -70px;
+    margin-right: 10%;
+    width: 30%;
+}
+.copy-ul-li{
+    float: left;
+}
+

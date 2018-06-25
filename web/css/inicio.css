@@ -1,0 +1,165 @@
+html, body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: #222534;
+}
+
+.topSlider {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #1f1f1f;
+  overflow: hidden;
+  position: absolute; }
+  .topSlider span {
+    position: absolute;
+    color: white;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center; }
+    .bb{
+    	font-size: 50px;
+    	text-shadow: 0px 0px 40px yellow;
+    }
+  .topSlider span {
+    position: absolute;
+    color: white;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center; }
+    .bb{
+    	font-size: 50px;
+    	text-shadow: 0px 0px 40px yellow;
+    }
+    .topSlider span h1 {
+    text-shadow: 0px 0px 40px black;
+      
+      color: #D0CE0F;
+      font-size: 3em;
+      margin-bottom: 0%; }
+    .topSlider span h2 {
+      margin-top: 0%; }
+  .topSlider .slide {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    -webkit-animation: slide 10s infinite;
+    animation: slide 10s infinite;
+    overflow: hidden; }
+  .topSlider .slide:nth-child(2) {
+    left: 0%;
+    -webkit-animation-delay: -0.5s;
+    animation-delay: -0.5s;
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    background-position: center; }
+  .topSlider .slide:nth-child(3) {
+    left: 100%;
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    background-image: url(../img/2.jpg);
+    background-size: cover;
+    background-position: center; }
+  .topSlider .slide:nth-child(4) {
+    left: 100%;
+    -webkit-animation-delay: 4.5s;
+    animation-delay: 4.5s;
+    background-image: url(../img/3.jpg);
+    background-size: cover;
+    background-position: center; }
+  .topSlider .slide:nth-child(5) {
+    left: 100%;
+    -webkit-animation-delay: 7s;
+    animation-delay: 7s;
+    background-image: url(../img/4.jpg);
+    background-size: cover;
+    background-position: center; }
+  .topSlider p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin-top: 340px;
+    color: white; }
+
+@-webkit-keyframes slide {
+  0% {left: 100%; width: 100%; }
+  5% {left: 0%; }
+  25% {left: 0%; }
+  30% {left: -100%; width: 100%; }
+  31% {left: -100%; width: 0%; }
+  100% {left: 100%;width: 0%; } 
+}
+
+@keyframes slide {
+  0% {left: 100%;width: 100%; }
+  5% {left: 0%; }
+  25% {left: 0%; }
+  30% {left: -100%;width: 100%; }
+  31% {left: -100%;width: 0%; }
+  100% {left: 100%;width: 0%; } 
+}
+.navbar-brand{
+	font-size: 23px;
+}
+.bar{
+	font-size: 17px;
+}
+
+.copy{
+	width: 100%;
+	background-color: #1a1e23;
+	color: #777;
+	padding: 8px;
+}
+.copy-title{
+	font-size: 1em;
+}
+.copy-ul{
+	display: inline-block;
+	float: right;
+	list-style-type: none;
+	margin-bottom: 5px; 
+}
+.copy-ul-li{
+	float: left;
+	margin-right: 16px;
+}
+
+
+.pesa{
+	font-size: 20px;
+	color: white;
+}
+
+.footer{
+	background-color: #272D34;
+	color: #fff;
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+.footer .title {
+	font-size: 1.6em;
+}
+.parrafo{
+	color: #777;
+	font-size: 0.9em;
+	margin-top: 8px;
+}
+
+.a{
+	color: #999;
+	display: block;
+	padding: 2px;
+}

@@ -1,0 +1,26 @@
+SMAP
+productos_jsp.java
+JSP
+*S JSP
+*F
++ 0 productos.jsp
+view/productos.jsp
++ 1 HeadMainLinks.jspf
+view/../WEB-INF/template/HeadMainLinks.jspf
++ 2 HeadVarMain.jspf
+view/../WEB-INF/template/HeadVarMain.jspf
++ 3 FooterMain.jspf
+view/../WEB-INF/template/FooterMain.jspf
++ 4 FooterMainLinks.jspf
+view/../WEB-INF/template/FooterMainLinks.jspf
+*L
+5,9:52
+1#1,12:61
+13#0,5:73
+1#2,66:78
+17#0,112:143
+1#3,53:255
+128#0,2:307
+1#4,7:309
+129#0,5:315
+*E

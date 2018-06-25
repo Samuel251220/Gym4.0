@@ -1,0 +1,155 @@
+*{
+  paddin: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.speed{
+  border: 1px solid #2b4b52;
+  width: 20%;
+  height: 100%;
+  padding: 3% 0;
+  border-radius: 2%;
+  text-align: center;
+  background: #222534;
+  margin: auto;
+}
+.cont{
+  width: 200px;
+  margin: auto;
+}
+.stylish-input-group .input-group-addon{
+  background: white !important; 
+}
+.stylish-input-group .form-control{
+  border-right:0; 
+  box-shadow:0 0 0; 
+  border-color:#ccc;
+}
+.stylish-input-group button{
+  border:0;
+  background:transparent;
+}
+.opciones{
+  width: 100%;
+  padding: 0;
+  list-style: none;
+}
+.opc{
+  width: 100%;
+  margin: 8px 0;
+  background: #d43f3a;
+}
+.opc > a{
+  display: block;
+  padding: 4% 2%;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+}
+a:hover{
+  background: #d9534f;
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+}
+.conteiner{
+  position: absolute;
+  padding: 5% 5%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.prod{
+  background: #222534;
+  width: 75%;
+  height: 100%;
+  margin: auto;
+  border-radius: 2%;
+  padding: 3% 0;
+  overflow-y: scroll;
+}
+.pro{
+  width: 26%;
+  height: 250px;
+  list-style: none;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5%;
+  float: left;
+  margin: 2% 3%;
+  cursor: pointer;
+}
+.pro:hover .desc{
+  bottom: 0;
+}
+.imgpro{
+  position: relative;
+  transition: all 1s ease;
+}
+.imgpro > img {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+}
+.prec{
+  display: flex;
+}
+.precio{
+  margin-left: 85px;
+  background: #398439;
+  padding: 5px;
+  width: 30%;
+  text-align: center;
+  border-radius: 20%;
+}
+.desc{
+  position: absolute;
+  z-index: 99;
+  background: #FBB829;
+  padding: 10%;
+  width: 100%;
+  border-radius: 5%;
+  bottom: -160px;
+  transition: all .5s ease;
+}
+.descP{
+  width: 100%;
+  padding: 8% 5% 0 5%;
+}
+.new::before{
+  content: "new";
+  width: 100px;
+  z-index: 50;
+  color: #fff;
+  transform: rotate(-45deg);
+  background: red;
+  text-align: center;
+  position: absolute;
+  margin: 3%;
+  left: -40px;
+}
+.pro1{
+  width: 26%;
+  height: 400px;
+  list-style: none;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5%;
+  float: left;
+  margin: 2% 3%;
+  background: red;
+}
+.pro1:hover .imgpro{
+  transform: scale(1.1);
+}
+.desc1{
+  z-index: 99;
+  position: absolute;
+  bottom: 0;
+  background: #fff;
+  width: 100%;
+  top: 225px;
+  padding: 20% 10% 10% 10%;
+  text-align: center;
+}

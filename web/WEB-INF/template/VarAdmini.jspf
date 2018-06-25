@@ -1,0 +1,32 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+        <header>
+	    <nav class="navbar navbar-inverse navbar-static-top barra" role="navigation"> 
+		    <div class="container">
+			    <div class="navbar-header">
+			    	<i class="pesa fas fa-dumbbell"></i>
+				
+    				    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacion" aria-expended="false" aria-controls="navbar">
+					    <span class="sr-only">Ocultar</span>
+					    <span class="icon-bar"></span>
+					    <span class="icon-bar"></span>
+					    <span class="icon-bar"></span>
+				    </button>
+
+				    <a href="#" class="navbar-brand">Stronger GYM</a> 
+			    </div>
+
+				<div class="collapse navbar-collapse navbar-right" id="navegacion">
+
+				    <ul class="nav navbar-nav">
+				      
+				        <li class="bar"><a href="menur?opc=5">Usuarios</a></li><!-- class="active"-->
+				        <li class="bar"><a href="menur?opc=6">Reserva</a></li>
+				        <li class="bar"><a href="menur?opc=7">Productos</a></li>
+				        <li class="bar cont-flecha"><i class="far fa-arrow-alt-circle-right flecha"></i></li>
+				    	
+				    </ul> 
+		    	</div>
+		   </div>
+	    </nav>
+	</header>

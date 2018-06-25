@@ -1,0 +1,31 @@
+img {
+    width:240px;
+	margin-bottom: 8px;
+}
+.title_section{
+	display: block;
+	color:#555;
+	font-size: 2em;
+	text-transform: uppercase;
+	text-align: center;
+}
+.testimony_section{
+	padding-bottom: 32px; 
+}
+.testimony{
+	text-align: center;
+	margin-top: 8px;
+}
+
+.testimony p{
+	color: #666;
+}
+.testimony a{
+	color: #666;
+	font-weight: bold;
+	text-decoration: none;
+}
+#twiter{
+	color: #2185B2;
+
+}

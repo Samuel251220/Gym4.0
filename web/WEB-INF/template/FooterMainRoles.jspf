@@ -1,0 +1,18 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<div class="copy container">
+
+    <p class="copy-title ">REDES SOCIALES</p>
+    <ul class="copy-ul  navbar-right row">
+        <li class="copy-ul-li col-xs-12 col-md-4">
+            <i class="fab fa-facebook-square iconos"></i>
+        </li>
+        <li class="copy-ul-li col-xs-12 col-md-4" >
+            <i class="fab fa-twitter-square iconos"></i>
+        </li>
+        <li class="copy-ul-li col-xs-12 col-md-4">
+            <i class="fab fa-instagram iconos"></i>
+        </li>
+    </ul>
+
+</div>

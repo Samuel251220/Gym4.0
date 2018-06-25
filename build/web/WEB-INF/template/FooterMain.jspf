@@ -1,0 +1,52 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<div class="footer">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-4">
+    				<h2>Ultimas entradas</h2>
+    				<ul class="parrafo">
+    					<li><a class="a" href="#">Proximamente</a></li>
+    					<li><a class="a" href="#">Proximamente</a></li>
+    					<li><a class="a" href="#">Proximamente</a></li>
+    					<li><a class="a" href="#">Proximamente</a></li>
+    					<li><a class="a" href="#">Proximamente</a></li>
+    					<li><a class="a" href="#">Proximamente</a></li>
+    				</ul>
+    			</div>
+    			<div class="col-md-4">
+    				<h2>Contacto</h2>
+    				<p><strong>Strong Corporation</strong></p>
+    				<p class="parrafo"><i class="fas fa-map-marker-alt"></i> Direccion</p>
+    				<p class="parrafo"><i class="fas fa-phone"></i> Telefono</p>
+    				<p class="parrafo"><i class="fab fa-whatsapp"></i> Whatsapp</p>
+    				<p class="parrafo"><i class="fas fa-envelope"></i> Email</p>
+    			</div>
+    			<div class="col-md-4">
+    				<h2 class="title">Recibir mas informacion</h2>
+    				<form action="./">
+    					<div class="input-group">
+    						<input type="text" class="form-control" placeholder="Email">
+		    				<span class="input-group-btn">
+		    					<button class="btn btn-default" type="button">
+		    						<i class="glyphicon glyphicon-ok"></i>
+		    					</button>
+		    				</span>
+    					</div><br>
+    					<p class="parrafo">Recibe Informacion de nuestras actualizaciones directamente en tu correo electrónico</p>
+    				</form>
+    				
+    			</div>
+    		</div>
+    	</div>
+    </div>
+	<div class="copy container">
+		<div>
+			<p class="copy-title">COPYRIGHT © 2018 TODOS LOS DERECHOS RESERVADOS</p>
+			<ul class="copy-ul">
+				<li class="copy-ul-li"><a href="#">Comunidada</a></li>
+				<li class="copy-ul-li"><a href="#">Términos de uso</a></li>
+				<li class="copy-ul-li"><a href="#">Privacidad y condiciones</a></li>
+			</ul>
+		</div>
+	</div>
